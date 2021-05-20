@@ -1,12 +1,12 @@
 class Animal
   attr_reader :kind,
-              :weight,
-              :age
+              :weight,  #not needed
+              :age      #not needed
 
   def initialize(kind, weight, age)
-    @kind = kind
+    @kind   = kind
     @weight = weight
-    @age = age
+    @age    = age
   end
 
   def weight
@@ -14,7 +14,7 @@ class Animal
   end
 
   def age
-    p "25 weeks"
+    p "#{@age} weeks"
   end
 
   def age_in_days

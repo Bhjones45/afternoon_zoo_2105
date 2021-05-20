@@ -11,8 +11,6 @@ class Zoo
     @street = street
     @city = city
     @inventory = []
-    @animal_1 = animal_1
-    @animal_2 = animal_2
     @animal_count = 0
   end
 
@@ -29,7 +27,7 @@ class Zoo
   end
 
   def add_animal(animal)
-    inventory << animal
+    @inventory.push(animal)
   end
 
 end
