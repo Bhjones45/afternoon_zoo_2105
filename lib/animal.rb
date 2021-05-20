@@ -25,4 +25,8 @@ class Animal
     @weight += number
   end
 
+  def first_letter
+    kind[0]
+  end
+  
 end
